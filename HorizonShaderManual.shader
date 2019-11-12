@@ -5,13 +5,13 @@ Shader "Custom/HorizonManual"
 	Properties{
 		//_MainTex("Texture", 2D) = "white" {}
 		_HueShift("HueShift", Float) = 0
-		_HueScale("HueScale", Float) = 1
+		_HueScale("HueScale", Float) = 0.5
 
-		_LineFillRatio("LineFillRatio", Range(-0.001, 1)) = 0.3
-		_LineScale("LineScale", Float) = 1
+		_LineFillRatio("LineFillRatio", Range(-0.001, 1)) = 0.2
+		_LineScale("LineScale", Float) = 50
 
-		_Brightness("Brightness", Range(-0.001, 2)) = 0.7
-		_Contrast("Contrast", Range(-0.001, 1.5)) = 1
+		_Brightness("Brightness", Range(-0.001, 2)) = 1.2
+		_Contrast("Contrast", Range(-0.001, 1.5)) = 0.9
 	}
 		SubShader
 	{
